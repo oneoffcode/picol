@@ -1,7 +1,6 @@
 package picol
 
 import (
-	"strings"
 	"unicode"
 	"unicode/utf8"
 )
