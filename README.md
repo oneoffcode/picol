@@ -25,3 +25,7 @@ func CommandPuts(i *picol.Interp, argv []string, pd interface{}) (string, error)
 		fmt.Println(result)
 	}
 ```
+
+
+I forked this forked this prokect because there was a bug in the parser.go file that prevented it from compiling.
+Also, the project name also janked the golang tools.
