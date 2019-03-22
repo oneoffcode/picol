@@ -26,6 +26,9 @@ func CommandPuts(i *picol.Interp, argv []string, pd interface{}) (string, error)
 	}
 ```
 
+## UPDATE
 
-I forked this forked this prokect because there was a bug in the parser.go file that prevented it from compiling.
+I forked this forked this project because there was a bug in the parser.go file that prevented it from compiling.
 Also, the project name also janked the golang tools.
+
+In the sample code above ```CommandPuts``` has a final param ```pd interface{}```. The value of this param is whatever value the user passed in when registering. I do not particularly see what the benefit is unless there is some sort of fork.
